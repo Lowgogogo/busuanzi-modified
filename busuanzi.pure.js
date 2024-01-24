@@ -72,17 +72,17 @@ var bszCaller, bszTag;
             this.bszssp.map(function (b) {
                 var c = document.getElementById("busuanzi_value_" + b);
                 c &&
-                    (c.innerHTML = parseInt(Date.now() * 0.0000005 - 8.25 * Math.pow(10, 5)) + parseInt(a[b])); // init here
+                    (c.innerHTML = parseInt(Date.now(999) * 0.0000005 - 8.25 * Math.pow(10, 5)) + parseInt(a[b])); // init here
             });
             this.bszssu.map(function (b) {
                 var c = document.getElementById("busuanzi_value_" + b);
                 c &&
-                    (c.innerHTML = parseInt(Date.now() * 0.0000005 - 8.27 * Math.pow(10, 5)) + parseInt(a[b])); // init here
+                    (c.innerHTML = parseInt(Date.now(999) * 0.0000005 - 8.27 * Math.pow(10, 5)) + parseInt(a[b])); // init here
             });
             this.bszspp.map(function (b) {
                 var c = document.getElementById("busuanzi_value_" + b);
                 c &&
-                    (c.innerHTML = parseInt(Date.now() * 0.000000005 - 8.1 * Math.pow(10, 3)) + parseInt(a[b])); // init here
+                    (c.innerHTML = parseInt(Date.now(999) * 0.000000005 - 8.1 * Math.pow(10, 3)) + parseInt(a[b])); // init here
             })
         },
         hides: function () {
